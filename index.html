@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <title>Página de login</title>
+    <style>
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0%;
+}
+    .container{
+        background: rgba(225, 211, 211, 0.626);
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px #274780 ;
+        text-align: center;
+    }
+    input{
+        padding: 10px;
+        margin: 10px;
+        border: 10px inset #000000;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #0019fd ;
+    }
+    button{
+        width: 50%;
+        height: 25px;
+        background:  #f4f4f4;
+        color: #050202;
+        border-radius: 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    button:hover{
+        background:  #0091ff;
+        color: #fff4f4;
+    }
+    </style>
 </head>
 <body>
-    <script src=""></script>
+    <div class="container">
+        <h1>Login</h1>
+       <br><input type="text"placeholder="Email">
+       <br> <input type="password"placeholder="senha">
+        <br> <button>Entrar</button>
+        <a href="">cadastre-se</a>
+        <a href="esqueci minha senha"></a>
+    </div>
 </body>
 </html>
