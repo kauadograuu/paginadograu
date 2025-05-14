@@ -24,7 +24,7 @@ padding: 10px;
 margin: 10px;
 border: 10px inset #43323271;
 border-radius: 15px;
-box-shadow: 0 0 20px #ff0000 ;
+box-shadow: 0 0 20px #1a1919 ;
 }
 button{
 width: 50%;
