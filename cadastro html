@@ -55,7 +55,7 @@ text-decoration: none;
 <br> <input type="password"placeholder="Email">
 <br><input type="text"placeholder="Senha">
 <br><input type="text"placeholder="Confirme a Senha ">
-<br> <button>Entrar</button>
+<br>  <a href="<button>Entrar</button>"
 
 </div>
 </body>
