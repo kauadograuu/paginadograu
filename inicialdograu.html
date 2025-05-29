@@ -8,16 +8,23 @@
         *{
             margin: 0;
             padding: 0%;
-        }
-        .menu{
-            list-style: none;
-            border: 1px solid;
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
+            box-sizing: border-box;
         }
         .menu li{
-            position: relative;
+            list-style: none;/*limpar os marcadores padrao da lista UL ou OL*/
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: darkgrey;
+            padding: 10px 0;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index: 1000;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
         }
     </style>
 </head>
@@ -27,7 +34,7 @@
             <li>inicio</li>
             <li>sobre</li>
             <li>perfil</li>
-            <li>contatos</li>
+            <li><a href="cadastro html">contatos</a></li>
         </ul>
     </nav>
 </body>
